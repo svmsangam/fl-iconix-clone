@@ -9807,7 +9807,7 @@ header {
     font-family: 'Open Sans', Arial, sans-serif;
     color: #333;
 }
-<!---------------------------product-category-sticky-anchor -->
+
 .sticky_menu_parent_div {
     background-color: #106DAA;
     border-bottom: 3px solid #4fa7d5;
@@ -9962,14 +9962,16 @@ header {
     text-transform: uppercase;
     padding: 0px 7px;
 }
-@media only screen and (max-width: 1235px) and (min-width: 767px)
+@media only screen and (max-width: 1235px) and (min-width: 767px){
 .col29 {
     width: 100% !important;
     text-align: center;
 }
-@media only screen and (max-width: 1235px) and (min-width: 767px)
+}
+@media only screen and (max-width: 1235px) and (min-width: 767px){
 .colon_responisve {
     display: none;
+}
 }
 .careers-wrapper img {
     float: left;
@@ -10002,11 +10004,12 @@ header {
 }
 
 
-@media only screen and (max-width: 700px) and (min-width: 320px)
+@media only screen and (max-width: 700px) and (min-width: 320px){
 .contact-wrapper .contactWrap {
     padding: 0 10px;
 }
-@media only screen and (max-width: 700px) and (min-width: 320px)
+}
+@media only screen and (max-width: 700px) and (min-width: 320px){
 .contact-wrapper .contactWrap > div {
     margin-bottom: 15px;
     display: block;
@@ -10019,8 +10022,8 @@ header {
 .contactWrap>div{
     margin-bottom: 30px;
 }
-
-@media only screen and (max-width: 700px) and (min-width: 320px)
+}
+@media only screen and (max-width: 700px) and (min-width: 320px){
 .contact-wrapper .icon-wrap {
     width: 50px;
     height: 50px;
@@ -10045,7 +10048,8 @@ header {
     -webkit-transform: rotate(-45deg);
     transform: rotate(-45deg);
 }
-@media only screen and (max-width: 700px) and (min-width: 320px)
+}
+@media only screen and (max-width: 700px) and (min-width: 320px){
 .contact-wrapper .icon-wrap i {
     font-size: 25px;
 }
@@ -10084,7 +10088,7 @@ margin: 0px 0 10px;
 .text-center {
   text-align: center !important;
 }
-
+}
 
 <!----QUICK FORMS------------->
 .footer-item h4 {
