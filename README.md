@@ -11,3 +11,4 @@
 ~~~~
 <a href="tel: 977-1-4100068">977-01-4100068</a>
 ~~~~
+**3. Currently all forms are static sending request to nowhere.**
