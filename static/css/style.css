@@ -4,7 +4,9 @@
  * Copyright 2011-2018 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
-:root {
+:root { 
+  --primary: #1B5780;/*Primary Color*/
+  --secondary: #6c757d;
   --blue: #007bff;
   --indigo: #6610f2;
   --purple: #6f42c1;
@@ -18,8 +20,6 @@
   --white: #fff;
   --gray: #6c757d;
   --gray-dark: #343a40;
-  --primary: #78d5ef;
-  --secondary: #6c757d;
   --success: #28a745;
   --info: #17a2b8;
   --warning: #ffc107;
@@ -7871,16 +7871,17 @@ h1, h2, h3, h4, h5,
     background-position: center center;
     position: relative;
     padding: 3em 0;
-    background: #2f89fc;
-    background: -moz-linear-gradient(-45deg, #2f89fc 0%, #55fbc2 100%);
-    background: -webkit-gradient(left top, right bottom, color-stop(0%, #2f89fc), color-stop(100%, #55fbc2));
-    background: -webkit-linear-gradient(-45deg, #2f89fc 0%, #55fbc2 100%);
-    background: -o-linear-gradient(-45deg, #2f89fc 0%, #55fbc2 100%);
-    background: -ms-linear-gradient(-45deg, #2f89fc 0%, #55fbc2 100%);
-    background: -webkit-linear-gradient(315deg, #2f89fc 0%, #55fbc2 100%);
-    background: -o-linear-gradient(315deg, #2f89fc 0%, #55fbc2 100%);
-    background: linear-gradient(135deg, #2f89fc 0%, #55fbc2 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2f89fc', endColorstr='#00dc94', GradientType=1 ); }
+    background: var(--primary);
+    /* background: -moz-linear-gradient(-45deg, var(--primary) 0%, #55fbc2 100%);
+    background: -webkit-gradient(left top, right bottom, color-stop(0%, var(--primary)), color-stop(100%, #55fbc2));
+    background: -webkit-linear-gradient(-45deg, var(--primary) 0%, #55fbc2 100%);
+    background: -o-linear-gradient(-45deg, var(--primary) 0%, #55fbc2 100%);
+    background: -ms-linear-gradient(-45deg, var(--primary) 0%, #55fbc2 100%);
+    background: -webkit-linear-gradient(315deg, var(--primary) 0%, #55fbc2 100%);
+    background: -o-linear-gradient(315deg, var(--primary) 0%, #55fbc2 100%);
+    background: linear-gradient(135deg, var(--primary) 0%, #55fbc2 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='var(--primary)', endColorstr='#00dc94', GradientType=1 );  */
+  }
 
 .ftco-quote {
   padding: 0; }
@@ -8215,16 +8216,8 @@ textarea.form-control {
     bottom: 0;
     content: '';
     opacity: 1;
-    background: #2f89fc;
-    background: -moz-linear-gradient(-45deg, #2f89fc 0%, #55fbc2 100%);
-    background: -webkit-gradient(left top, right bottom, color-stop(0%, #2f89fc), color-stop(100%, #55fbc2));
-    background: -webkit-linear-gradient(-45deg, #2f89fc 0%, #55fbc2 100%);
-    background: -o-linear-gradient(-45deg, #2f89fc 0%, #55fbc2 100%);
-    background: -ms-linear-gradient(-45deg, #2f89fc 0%, #55fbc2 100%);
-    background: -webkit-linear-gradient(315deg, #2f89fc 0%, #55fbc2 100%);
-    background: -o-linear-gradient(315deg, #2f89fc 0%, #55fbc2 100%);
-    background: linear-gradient(135deg, #2f89fc 0%, #55fbc2 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2f89fc', endColorstr='#00dc94', GradientType=1 ); }
+    background: var(--primary);
+  }
   @media (max-width: 767.98px) {
     .ftco-section {
       padding: 2em 0; } }
@@ -8545,16 +8538,8 @@ textarea.form-control {
     content: '';
     z-index: -1;
     opacity: .9;
-    background: #0B3C5D;
-    background: -moz-linear-gradient(-45deg, #0B3C5D 0%, #55fbc2 100%);
-    background: -webkit-gradient(left top, right bottom, color-stop(0%, #0B3C5D), color-stop(100%, #55fbc2));
-    background: -webkit-linear-gradient(-45deg, #0B3C5D 0%, #55fbc2 100%);
-    background: -o-linear-gradient(-45deg, #0B3C5D 0%, #55fbc2 100%);
-    background: -ms-linear-gradient(-45deg, #0B3C5D 0%, #55fbc2 100%);
-    background: -webkit-linear-gradient(315deg, #0B3C5D 0%, #55fbc2 100%);
-    background: -o-linear-gradient(315deg, #0B3C5D 0%, #55fbc2 100%);
-    background: linear-gradient(135deg, #0B3C5D 0%, #55fbc2 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0B3C5D', endColorstr='#00dc94', GradientType=1 ); }
+    background: var(--primary);
+  }
 
 .ftco-counter {
   padding: 5em 0; }
@@ -9316,7 +9301,7 @@ hr {
 
 * {
     box-sizing: border-box;
-    outline-color: #137992;
+    outline-color: var(--primary);
 }
 
 .inner {
@@ -9866,7 +9851,7 @@ header {
 }
 .sp-maint-serv * {
     box-sizing: border-box;
-    outline-color: #137992;
+    outline-color: var(--primary);
 }
 .bfsi_sticky_title {
     font-family: "Gotham-Rounded-Light_21020" !important;
