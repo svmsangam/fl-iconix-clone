@@ -1,6 +1,6 @@
 **1. "Update your email in all files**
 ~~~~
-<a href="mailto:info@iconix.com"><span>info@iconix.com</span></a>
+<a href="mailto:info@iconixtexh.com"><span>info@iconixtexh.com</span></a>
 ~~~~
 
 **2. Use your location address in href attribute here in all files**
@@ -11,4 +11,8 @@
 ~~~~
 <a href="tel: 977-1-4100068">977-01-4100068</a>
 ~~~~
-**3. Currently all forms are static sending request to nowhere.**
+**4. Use your own tab icon (favcion)**
+~~~~
+  <link rel="icon" type="image/x-icon" href="/static/images/icons8-favicon-50.png">
+~~~~
+**5.All forms are static** 
