@@ -1,6 +1,6 @@
 **1. "Update your email in all files**
 ~~~~
-<a href="mailto:info@iconixtexh.com"><span>info@iconixtexh.com</span></a>
+<a href="mailto:info@iconixtexh.com.np"><span>info@iconixtexh.com.np</span></a>
 ~~~~
 
 **2. Use your location address in href attribute here in all files**
@@ -9,7 +9,7 @@
 ~~~~
 **3. Update your phone in all files**
 ~~~~
-<a href="tel: 977-1-4100068">977-01-4100068</a>
+<a href="tel://+977-976-652-6525">+977-976-652-6525</a>
 ~~~~
 **4. Use your own tab icon (favcion)**
 ~~~~
